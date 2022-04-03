@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@color/white"
+        android:onClick="@{ () -> viewModel.launchTransactionDetailScreen(item.id) }"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/merchantNameTextView"
+            style="@style/PrimaryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:text="@{ item.merchant.name }"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Blue Bottle Coffee" />
+
+        <TextView
+            android:id="@+id/merchantCategoryTextView"
+            style="@style/SubheaderText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="8dp"
+            android:text="@{ item.merchant.merchantCategory.name }"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/merchantNameTextView"
+            tools:text="Restaurants" />
+
+        <TextView
+            android:id="@+id/amountTextView"
+            style="@style/PrimaryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:text="@{ TransactionUtils.parseAmount(item.amount) }"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="$10.00" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <data>
+
+        <import type="com.example.brexmobilechallenge.ui.util.TransactionUtils" />
+
+        <variable
+            name="item"
+            type="com.example.logic.model.Transaction" />
+
+        <variable
+            name="viewModel"
+            type="com.example.brexmobilechallenge.ui.transactionlist.viewmodel.TransactionListViewModel" />
+    </data>
+
+</layout>

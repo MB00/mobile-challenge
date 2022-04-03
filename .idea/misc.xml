@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_arrow_back.xml" value="0.2765625" />
+        <entry key="app/src/main/res/drawable/ic_arrow_right.xml" value="0.2791666666666667" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.2791666666666667" />
+        <entry key="app/src/main/res/drawable/ic_check.xml" value="0.2791666666666667" />
+        <entry key="app/src/main/res/layout/activity_category_list.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_transaction_detail.xml" value="0.37929158236939087" />
+        <entry key="app/src/main/res/layout/activity_transaction_details.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_transaction_list.xml" value="0.2559967041015625" />
+        <entry key="app/src/main/res/layout/activity_transactions.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_accounting_category.xml" value="0.4763366846820536" />
+        <entry key="app/src/main/res/layout/fragment_transaction_details.xml" value="0.5330812854442344" />
+        <entry key="app/src/main/res/layout/fragment_transactions.xml" value="0.1503623188405797" />
+        <entry key="app/src/main/res/layout/item_category.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/item_transaction.xml" value="0.421209858103062" />
+        <entry key="commonui/src/main/res/layout/activity_base.xml" value="0.13645833333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
