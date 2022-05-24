@@ -6,7 +6,7 @@ dependencyResolutionManagement {
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
-rootProject.name = "Brex Mobile Challenge"
+rootProject.name = "Square Mobile Challenge"
 include ':app'
 include ':logic'
 include ':commonui'

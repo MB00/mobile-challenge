@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.brexmobilechallenge">
+    package="com.example.squaremobilechallenge">
 
     <application
-        android:name=".application.MainApplication"
+        android:name="com.example.squaremobilechallenge.application.MainApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.BrexMobileChallenge"
-        android:usesCleartextTraffic="true">
+        android:theme="@style/Theme.SquareMobileChallenge">
         <activity
-            android:name=".ui.main.view.MainActivity"
-            android:exported="true"
+            android:name="com.example.squaremobilechallenge.ui.main.view.MainActivity"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,9 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.transactionlist.view.TransactionListActivity" />
-        <activity android:name=".ui.transactiondetail.view.TransactionDetailActivity" />
-        <activity android:name=".ui.categorylist.view.CategoryListActivity" />
+        <activity android:name="com.example.squaremobilechallenge.ui.employeelist.view.EmployeeListActivity" />
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

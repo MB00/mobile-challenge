@@ -1,20 +1,11 @@
 <resources>
-    <string name="app_name">Brex Mobile Challenge</string>
+    <string name="app_name">Square Mobile Challenge</string>
 
     <!-- General -->
     <string name="retry">Retry</string>
 
-    <!-- Transaction -->
-    <string name="transactions">Transactions</string>
-
-    <!-- Transaction Detail -->
-    <string name="details">Details</string>
-    <string name="accounting">Accounting</string>
-    <string name="purchased_at">Purchased at</string>
-    <string name="merchant_name">Merchant name</string>
-    <string name="website">Website</string>
-
-    <!-- Change Category -->
-    <string name="change_category">Change Category</string>
+    <!-- Employee -->
+    <string name="empty_message">No employees found!</string>
+    <string name="error_message">Something went wrong</string>
 
 </resources>

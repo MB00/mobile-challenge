@@ -13,7 +13,7 @@ protected constructor(
 ) {
 
     protected open fun baseUrl(): String {
-        return "http://192.168.1.214:4000"
+        return "https://s3.amazonaws.com/sq-mobile-interview/"
     }
 
     protected abstract fun clientClass(): Class<*>

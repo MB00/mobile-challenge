@@ -8,7 +8,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.brexmobilechallenge"
+        applicationId "com.example.squaremobilechallenge"
         minSdk 21
         targetSdk 30
         versionCode 1
@@ -53,6 +53,8 @@ dependencies {
     implementation 'io.reactivex.rxjava2:rxkotlin:2.4.0'
     implementation "com.google.dagger:dagger:$dagger_version"
     implementation "com.google.dagger:dagger-android-support:$dagger_version"
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'io.mockk:mockk:1.12.4'
     kapt "com.google.dagger:dagger-android-processor:$dagger_version"
     kapt "com.google.dagger:dagger-compiler:$dagger_version"
     implementation 'com.jakewharton.timber:timber:5.0.1'

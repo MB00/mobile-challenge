@@ -9,11 +9,7 @@
 
     <style name="SecondaryText">
         <item name="android:textColor">@color/primary_text</item>
-        <item name="android:textSize">12sp</item>
-    </style>
-
-    <style name="SubheaderText" parent="SecondaryText">
-        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:textSize">14sp</item>
     </style>
 
     <style name="ClickableText" parent="SecondaryText">

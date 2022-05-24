@@ -1,12 +1,8 @@
-package com.example.logic.api
+package com.example.squaremobilechallenge.ui.employeelist.interactor
 
 import com.example.logic.model.EmployeeResult
 import io.reactivex.Single
-import retrofit2.http.GET
 
-interface ApiClient {
-
-    @GET("employees.json")
+interface EmployeeListInteractor {
     fun getEmployees(): Single<EmployeeResult>
-
 }

@@ -7,7 +7,9 @@
         <entry key="app/src/main/res/drawable/ic_arrow_right.xml" value="0.2791666666666667" />
         <entry key="app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.2791666666666667" />
         <entry key="app/src/main/res/drawable/ic_check.xml" value="0.2791666666666667" />
+        <entry key="app/src/main/res/drawable/ic_person.xml" value="0.2765625" />
         <entry key="app/src/main/res/layout/activity_category_list.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_employee_list.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_transaction_detail.xml" value="0.37929158236939087" />
         <entry key="app/src/main/res/layout/activity_transaction_details.xml" value="0.1" />
@@ -17,6 +19,7 @@
         <entry key="app/src/main/res/layout/fragment_transaction_details.xml" value="0.5330812854442344" />
         <entry key="app/src/main/res/layout/fragment_transactions.xml" value="0.1503623188405797" />
         <entry key="app/src/main/res/layout/item_category.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/item_employee.xml" value="0.2893258426966292" />
         <entry key="app/src/main/res/layout/item_transaction.xml" value="0.421209858103062" />
         <entry key="commonui/src/main/res/layout/activity_base.xml" value="0.13645833333333332" />
       </map>
