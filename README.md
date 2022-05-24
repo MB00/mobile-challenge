@@ -30,7 +30,7 @@ Definitely the unit tests.  They were the last thing I worked on, and I ran out 
 trying to finish them.
 
 ## Did you copy any code or dependencies? Please make sure to attribute them here!
-No
+I copied some base classes over from a previous take-home assignment I worked on
 
 ## Is there any other information you’d like us to know?
 No
